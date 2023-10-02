@@ -1,0 +1,21 @@
+.container__big-card {
+	max-width: 720px;
+	max-height: 600px;
+	display: flex;
+	flex-direction: column;
+	padding: 1vw;
+}
+
+.big-card__photo > img {
+	max-width: 480px;
+	width: 100%;
+}
+
+.big-card__title {
+	margin-top: 8px;
+}
+
+.big-card__description > p {
+	margin-top: 8px;
+	color: grey;
+}

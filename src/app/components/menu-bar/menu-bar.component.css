@@ -1,0 +1,28 @@
+.container__menu-title {
+	width: 100vw;
+	height: 4em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: white;
+	font-weight: 400;
+	font-size: larger;
+	text-transform: uppercase;
+}
+
+#logo {
+	min-width: 64px;
+	margin: 10px;
+}
+
+#menu-navigation {
+	width: 100%;
+	max-width: 920px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#mediaLinks {
+	min-width: 128px;
+}
+
