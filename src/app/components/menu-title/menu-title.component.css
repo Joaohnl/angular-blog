@@ -2,10 +2,6 @@
 	color: white;
 }
 
-.container__menu-title > hr {
-	margin: 2vw 0;
-}
-
 .container__menu-title > h1 {
 	font-size: 8vw;
 	display: flex;

@@ -1,7 +1,13 @@
-<div class="container__menu-title">
-	<div id="logo"></div>
-	<div id="menu">
-		<span *ngFor="let linkName of navigationLinks">{{linkName}}</span>
+<div class="container__menu-bar">
+	<div class="menu-bar__logo">
+		<img src="http://via.placeholder.com/64x64" alt="">
 	</div>
-	<div id="menu-mediaLinks"></div>
+	<div class="menu-bar__links">
+		<a href="#" *ngFor="let linkName of navigationLinks">{{linkName}}</a>
+	</div>
+	<div class="menu-bar__socialMedia">
+		<a href="#" *ngFor="let socialMedia of socials">
+			<img src="{{socialMedia}}" alt="">
+		</a>
+	</div>
 </div>

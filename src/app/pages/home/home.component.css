@@ -10,8 +10,3 @@
 .articles__others {
 	padding: 2vw;
 }
-
-.articles__others > hr {
-	margin: 1.5vw 0;
-	opacity: 50%;
-}

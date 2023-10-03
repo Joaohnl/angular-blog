@@ -11,3 +11,8 @@
 a {
 	text-decoration: none;
 }
+
+hr {
+	margin: 1.2vw 0;
+	opacity: 50%;
+}
