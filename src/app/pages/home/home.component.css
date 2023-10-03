@@ -2,3 +2,16 @@
 	max-width: 90vw;
 	margin: 0 auto;
 }
+
+.container__articles {
+	display: flex;
+}
+
+.articles__others {
+	padding: 2vw;
+}
+
+.articles__others > hr {
+	margin: 1.5vw 0;
+	opacity: 50%;
+}

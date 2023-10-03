@@ -1,14 +1,18 @@
 .container__big-card {
-	max-width: 720px;
+	max-width: 50vw;
 	max-height: 600px;
 	display: flex;
 	flex-direction: column;
-	padding: 1vw;
+	padding: 2vw;
 }
 
 .big-card__photo > img {
 	max-width: 480px;
 	width: 100%;
+}
+
+.big-card__date {
+	color: grey;
 }
 
 .big-card__title {

@@ -1,0 +1,25 @@
+.container__small-card {
+	max-width: 50vw;
+	max-height: 200px;
+	display: flex;
+}
+
+.small-card__photo {
+	width: 100%;
+	max-width: 280px;
+}
+
+.small-card__information {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 1vw;
+}
+
+.small-card__date {
+	color: grey;
+}
+
+.small-card__title {
+	padding-top: 1vw;
+}
