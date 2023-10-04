@@ -1,13 +1,15 @@
 <div class="container__menu-bar">
 	<div class="menu-bar__logo">
-		<img src="http://via.placeholder.com/64x64" alt="">
+		<img src="{{logo.iconSrc}}" alt="{{logo.alt}}">
 	</div>
-	<div class="menu-bar__links">
-		<a href="#" *ngFor="let linkName of navigationLinks">{{linkName}}</a>
-	</div>
+	<nav class="menu-bar__links">
+		<ul>
+			<li *ngFor="let linkName of navigationLinks"><a href="/{{linkName}}" target="_blank" rel="noopener noreferrer">{{linkName}}</a></li>
+		</ul>
+	</nav>
 	<div class="menu-bar__socialMedia">
-		<a href="#" *ngFor="let socialMedia of socials">
-			<img src="{{socialMedia}}" alt="">
+		<a href="{{socialMedia.linkSrc}}" *ngFor="let socialMedia of socials" target="_blank" rel="noopener noreferrer">
+			<img src="{{socialMedia.iconSrc}}" alt="{{socialMedia.alt}}">
 		</a>
 	</div>
 </div>

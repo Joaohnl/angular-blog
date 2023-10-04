@@ -16,12 +16,19 @@
 	width: 100%;
 	height: 100%;
 	max-width: 920px;
-	display: flex;
 	flex: auto;
+	display: flex;
 	align-items: center;
+	font-size: 1.5rem;
+	font-weight: 600;
 }
 
-.menu-bar__links > a {
+.menu-bar__links > ul {
+	display: flex;
+	list-style: none;
+}
+
+.menu-bar__links > ul > li {
 	margin: 0 24px;
 }
 
