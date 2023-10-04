@@ -1,18 +1,40 @@
-<div class="container__home">
-	<header>
-		<app-menu-bar></app-menu-bar>
-	</header>
-	<app-menu-title></app-menu-title>
-	<div class="container__articles">
-		<div class="articles__main">
-			<app-big-card></app-big-card>
-		</div>
-		<div class="articles__others">
-			<app-small-card></app-small-card>
-			<hr>
-			<app-small-card></app-small-card>
-			<hr>
-			<app-small-card></app-small-card>
-		</div>
+<div class="container__articles">
+	<div class="articles__main">
+		<app-big-card
+		photoCover="https://howtocheckversion.com/wp-content/uploads/2023/09/image-12.png"
+		cardAuthor="João Loureiro"
+		cardDate="03/10/2023"
+		cardTitle="Angular has a new version coming up!"
+		cardDescription="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et possimus voluptatum, quisquam placeat harum provident."
+		></app-big-card>
+		<app-big-card
+		photoCover="https://static.independent.co.uk/2023/05/09/02/3b003557288828d193dc76ea73619de0Y29udGVudHNlYXJjaGFwaSwxNjgzNjgxMzcx-2.72089313.jpg?quality=75&width=640&crop=3%3A2%2Csmart&auto=webp"
+		cardAuthor="Kermit"
+		cardDate="01/10/2023"
+		cardTitle="Kermit steals the show at King’s Coronation Concert"
+		cardDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nesciunt ut veniam possimus?"
+		></app-big-card>
+	</div>
+	<div class="articles__others">
+		<app-small-card
+		photoCover="http://via.placeholder.com/280x200"
+		cardAuthor="João Loureiro"
+		cardDate="28/09/2023"
+		cardTitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quo quisquam quod dolorem nobis."
+		></app-small-card>
+		<hr>
+		<app-small-card
+		photoCover="http://via.placeholder.com/280x200"
+		cardAuthor="Kermit"
+		cardDate="25/09/2023"
+		cardTitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maiores quasi accusamus ipsum numquam provident quos deleniti minima!"
+		></app-small-card>
+		<hr>
+		<app-small-card
+		photoCover="http://via.placeholder.com/280x200"
+		cardAuthor="João Loureiro"
+		cardDate="21/09/2023"
+		cardTitle="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+		></app-small-card>
 	</div>
 </div>

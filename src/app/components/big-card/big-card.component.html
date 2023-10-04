@@ -1,16 +1,16 @@
 <div class="container__big-card">
 	<div class="big-card__photo">
-		<img src="http://via.placeholder.com/480x360" alt="">
+		<img src="{{photoCover}}" alt="">
 	</div>
 	<div class="big-card__date">
-		02/10/2023 by João Loureiro
+		{{cardDate}} by {{cardAuthor}}
 	</div>
 	<div class="big-card__title">
-		<a href="#"><h1>Saiu a nova versão do Angular</h1></a>
+		<a href="#"><h1>{{cardTitle}}</h1></a>
 	</div>
 	<div class="big-card__description">
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quo quisquam quod dolorem nobis. Dolores ea similique quasi et, dolore eum, nobis temporibus hic deserunt vitae illo officiis, quibusdam doloribus?
+			{{cardDescription}}
 		</p>
 	</div>
 </div>
